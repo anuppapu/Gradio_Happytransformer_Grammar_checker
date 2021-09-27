@@ -17,4 +17,4 @@ iface = gr.Interface(fn=correct_text, inputs=input_text, outputs=output_text, ti
              description='This tool can be used to correct the grammar of a Sentence', 
              allow_screenshot=False, allow_flagging=False,layout="vertical",theme="compact")
 if __name__ == "__main__":
-  iface.launch(inline=None,debug=False,share=False)
+  iface.launch(inline=False,debug=False,share=False)
