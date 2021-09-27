@@ -1,0 +1,2 @@
+gradio==2.3.5
+happytransformer==2.3.1
